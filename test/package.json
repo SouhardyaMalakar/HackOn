@@ -1,0 +1,22 @@
+{
+	"name": "test",
+	"version": "1.0.0",
+	"description": "personalize operations",
+	"main": "hello.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@aws-sdk/client-personalize": "^3.430.0",
+		"@aws-sdk/client-personalize-events": "^3.430.0",
+		"@aws-sdk/client-personalize-runtime": "^3.430.0",
+		"fs": "^0.0.1-security"
+	},
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"esModuleInterop": true
+	}
+}
